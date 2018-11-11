@@ -75,7 +75,7 @@ public class MPDStatusMonitor extends Thread {
     /** Emitted after a database update has started or finished. See IDLE_DATABASE */
     public static final String IDLE_UPDATE = "update";
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private static final String TAG = "MPDStatusMonitor";
 

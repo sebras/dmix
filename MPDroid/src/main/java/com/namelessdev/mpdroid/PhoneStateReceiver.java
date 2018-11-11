@@ -37,7 +37,7 @@ public class PhoneStateReceiver extends BroadcastReceiver {
     private static final SharedPreferences SETTINGS = PreferenceManager
             .getDefaultSharedPreferences(APP);
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     // Used to trace when the app pauses / resumes playback
     private static final String PAUSED_MARKER = "wasPausedInCall";

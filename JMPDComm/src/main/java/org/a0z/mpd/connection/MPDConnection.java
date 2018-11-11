@@ -63,7 +63,7 @@ public abstract class MPDConnection {
     private static final int CONNECTION_TIMEOUT = 10000;
 
     /** The debug flag to enable or disable debug logging output. */
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     /** Default buffer size for the socket. */
     private static final int DEFAULT_BUFFER_SIZE = 1024;

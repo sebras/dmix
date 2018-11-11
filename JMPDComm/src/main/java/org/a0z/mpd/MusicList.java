@@ -46,7 +46,7 @@ import java.util.List;
 final class MusicList implements Iterable<Music> {
 
     /** The debug flag, change to true for debugging log output. */
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     /** The debug log identifier. */
     private static final String TAG = "MusicList";

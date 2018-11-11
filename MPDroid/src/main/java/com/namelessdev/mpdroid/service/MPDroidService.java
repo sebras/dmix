@@ -57,7 +57,7 @@ public final class MPDroidService extends Service implements
         StatusChangeListener {
 
     /** Enable this to get various DEBUG messages from this module. */
-    static final boolean DEBUG = false;
+    static final boolean DEBUG = true;
 
     /** This is the class unique Binder identifier. */
     static final int LOCAL_UID = 200;

@@ -88,7 +88,7 @@ import static android.text.TextUtils.isEmpty;
 public class QueueFragment extends ListFragment implements StatusChangeListener,
         OnMenuItemClickListener {
 
-    protected static final boolean DEBUG = false;
+    protected static final boolean DEBUG = true;
 
     // Minimum number of songs in the queue before the fastscroll thumb is shown
     protected static final int MIN_SONGS_BEFORE_FASTSCROLL = 50;

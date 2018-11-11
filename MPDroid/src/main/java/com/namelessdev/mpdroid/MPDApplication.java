@@ -59,7 +59,7 @@ public class MPDApplication extends Application implements
         Handler.Callback,
         MPDAsyncHelper.ConnectionInfoListener {
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private static final long DISCONNECT_TIMER = 15000L;
 

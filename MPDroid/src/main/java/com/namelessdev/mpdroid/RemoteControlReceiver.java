@@ -38,7 +38,7 @@ import android.view.KeyEvent;
  */
 public class RemoteControlReceiver extends BroadcastReceiver {
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private static final String TAG = "RemoteControlReceiver";
 

@@ -85,7 +85,7 @@ public class MainMenuActivity extends MPDroidActivities.MPDroidActivity implemen
 
     private static final int CONNECT = 8;
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private static final String EXTRA_DISPLAY_MODE = "displaymode";
 

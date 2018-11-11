@@ -70,7 +70,7 @@ public class MPDPlaylist {
 
     public static final String MPD_CMD_PLAYLIST_SWAP_ID = "swapid";
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private static final String TAG = "MPDPlaylist";
 

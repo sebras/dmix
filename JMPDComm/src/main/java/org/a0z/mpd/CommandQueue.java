@@ -39,7 +39,7 @@ import java.util.List;
 /** A class to generate and send a command queue. */
 public class CommandQueue implements Iterable<MPDCommand> {
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private static final String MPD_CMD_BULK_SEP = "list_OK";
 

@@ -78,7 +78,7 @@ import static com.namelessdev.mpdroid.helpers.CoverInfo.STATE.WEB_COVER_FETCH;
  */
 public final class CoverManager {
 
-    public static final boolean DEBUG = false;
+    public static final boolean DEBUG = true;
 
     public static final String PREFERENCE_CACHE = "enableLocalCoverCache";
 

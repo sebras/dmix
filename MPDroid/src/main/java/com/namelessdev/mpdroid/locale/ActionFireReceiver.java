@@ -33,7 +33,7 @@ public class ActionFireReceiver extends BroadcastReceiver {
 
     private static final MPDApplication APP = MPDApplication.getInstance();
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private static final String TAG = "MPDroid Locale Plugin";
 

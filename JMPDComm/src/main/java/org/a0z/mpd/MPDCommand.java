@@ -154,7 +154,7 @@ public class MPDCommand {
 
     public static final String MPD_TAG_GENRE = "genre";
 
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private static final int[] EMPTY_INT_ARRAY = new int[0];
 
