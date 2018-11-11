@@ -16,7 +16,6 @@
 
 package com.namelessdev.mpdroid;
 
-import com.namelessdev.mpdroid.closedbits.CrashlyticsWrapper;
 import com.namelessdev.mpdroid.helpers.MPDAsyncHelper;
 import com.namelessdev.mpdroid.helpers.MPDAsyncHelper.ConnectionListener;
 import com.namelessdev.mpdroid.helpers.UpdateTrackInfo;
@@ -433,9 +432,6 @@ public class MPDApplication extends Application implements
         super.onCreate();
         sInstance = this;
         Log.d(TAG, "onCreate Application");
-
-        // Don't worry FOSS guys, crashlytics is not included in the "foss" flavour
-        CrashlyticsWrapper.start(this);
 
         mSettings = PreferenceManager.getDefaultSharedPreferences(this);
 
